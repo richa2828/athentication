@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <tittle></tittle>
+    
+
+    </head>
+    <body>
+        <fieldset style="width:300px;float: right;color:green;border-color: darkblue;border-width: ;">
+            <legend>Authentication Screen</legend>
+            
+        <p id="demo"></p>
+        
+        
+        
+        <form>
+            <table>
+        <tr>
+            <td>Enter username:--</td>
+        <td><input type="text" id="richapriya" placeholder="user name"></td>
+        </tr>
+        <tr>
+        <td>Passwords:--</td>
+       <td><input type="password" id="richa123" placeholder="password"></td>
+       </tr>
+       </table>
+        <input type="button" value="login!" onclick="f1()">
+        
+        </form>
+    </fieldset>
+        
+        
+    
+<script>
+    function f1()
+    
+                {
+                var a = document.getElementById("richapriya").value;
+                var b = document.getElementById("richa123").value;
+                if(a=="richapriya" && b=="richa123"){
+                    document.getElementById("demo").innerHTML="<h1>richapriya</h1>";
+                    document.getElementById("demo").style.color="Green";
+                }
+                else{
+                    document.getElementById("demo").innerHTML="welcome not";
+                    document.getElementById("demo").style.color="red";
+                    document.getElementById("demo").style.fontSize="x-large"                
+            }}
+
+        </script>
+
+    </body>
+
+</html>
